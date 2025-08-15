@@ -63,7 +63,8 @@ artifacts/
 *.ipa
 
 # MAUI
-platforms/
+# Note: The Platforms/ directory is essential for MAUI and should NOT be ignored
+# Only ignore lowercase platforms/ if it exists from other frameworks
 
 # Android
 [Bb]in/[Dd]ebug/
