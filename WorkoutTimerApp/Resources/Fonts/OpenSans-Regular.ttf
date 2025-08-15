@@ -1,0 +1,4 @@
+# Font file placeholder
+# In a real project, you would download the OpenSans-Regular.ttf font file
+# from Google Fonts and place it here. For this initial setup, we'll
+# comment out the font reference in MauiProgram.cs to avoid build errors.

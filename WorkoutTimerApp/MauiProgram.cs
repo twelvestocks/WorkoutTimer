@@ -11,10 +11,11 @@ public static class MauiProgram
 			.UseMauiApp<App>()
 			.ConfigureFonts(fonts =>
 			{
-				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+				// TODO: Add custom fonts when available
+				// fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 			});
 
-		builder.Services.AddMauiBlazorWebView();
+		// Note: This is a pure MAUI app, not using Blazor WebView
 
 #if DEBUG
 		builder.Services.AddLogging(logging => logging.AddDebug());
