@@ -1,0 +1,141 @@
+# .NET
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# DNX
+project.lock.json
+artifacts/
+
+# Xamarin
+*.apk
+*.aab
+*.ipa
+
+# MAUI
+platforms/
+
+# Android
+[Bb]in/[Dd]ebug/
+[Bb]in/[Rr]elease/
+[Oo]bj/
+TestResults/
+
+# iOS
+*.dSYM.zip
+*.dSYM
+
+# Mac
+*.DS_Store
+
+# Secrets and keys
+appsettings.local.json
+appsettings.*.local.json
+*.keystore
+*.pfx
+*.p12
+google-services.json
+GoogleService-Info.plist
+
+# Local configuration
+.claude/
+settings.local.json
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.log
+*.tlog
+
+# Package managers
+packages/
+node_modules/
+
+# JetBrains
+.idea/
+*.sln.iml
+
+# CodeRush
+.cr/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
